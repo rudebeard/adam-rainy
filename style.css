@@ -1,5 +1,22 @@
 body{
-  background-color:blanchedalmond;
+  background-color:rgb(90, 166, 196);
   font-size:35px;
   flex-flow:row;
+}
+.real{
+  border:3px solid gray;
+  text-align: center;
+  width:900px;
+  height:100%;
+  margin-left:440px;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  box-shadow: 7px 7px gray;
+}
+
+h2{
+  text-shadow: 0 3px;
+  font-style: oblique;
+  color:rgb(125, 156, 156)
+  
 }
