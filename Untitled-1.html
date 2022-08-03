@@ -8,26 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form class="real" action ="https://www.youtube.com/watch?v=2qLDWkzCtFQ">
+    <form class="real" method="post" >
         <h2 >PERSONAL INFORMATION</h2>
         Username:<br>
         <input type="text" name="username"><br>
         Age:<br>
-        <input type="number" name="age" ><br>
+        <input type="number" name="age"  min="15" max="55"><br>
         User email:<br>
         <input type="text" name="email"><br><br>
         GENDER:<br>
-        <input type="radio" name="gender" value="male">Male<br>
-        <input type="radio" name="gender" value="female">Female<br><br>
+    
+        <label><input type="radio" name="gender" value="male">Male</label><br>
+    
+        <label><input type="radio" name="gender" value="female">Female </label><br>
         The Days that You Are Available:<br>
-        <input type="checkbox" name="days" value="monday">monday<br>
-        <input type="checkbox" name="days" value="tuesday">tuesday<br>
-        <input type="checkbox" name="days" value="wednesday">wednesday<br>
-        <input type="checkbox" name="days" value="thursday">thursday<br>
-        <input type="checkbox" name="days" value="friday">friday<br>
-        <input type="checkbox" name="days" value="saturday">saturday<br>
-        <input type="checkbox" name="days" value="sunday">sunday<br>             
-            Which of the following sin brought you to hell:<br>
+        <input type="checkbox" name="days" value="monday">Monday<br>
+        <input type="checkbox" name="days" value="tuesday">Tuesday<br>
+        <input type="checkbox" name="days" value="wednesday">Wednesday<br>
+        <input type="checkbox" name="days" value="thursday">Thursday<br>
+        <input type="checkbox" name="days" value="friday">Friday<br>
+        <input type="checkbox" name="days" value="saturday">Saturday<br>
+        <input type="checkbox" name="days" value="sunday">Sunday<br>             
+            <p>Which of the following sin brought you to hell:</p><br>
         <select name="the sins you have made">
             <option value="Choose">Choose</option><br>
             <option value="sins">stealing</option><br>
@@ -38,9 +40,9 @@
         </select><br><br>
             <textarea name="comments" rows="25px" cols="35px"> please enter your comments to improve us.</textarea><br>
             
-            <input type="submit" value="submit"><br><br>
-            <input type="reset" value="reset">
-        
+            <input type="submit" value="Submit"><br><br>
+            <input type="reset" value="Reset">
+            <input type="search" name="search">Search
     </form>
 </body>
 </html>
