@@ -7,8 +7,7 @@
     <title>CLARUSWAY SURVEY</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body> 
     <form class="real" method="post"  action="https://clarusway.com/cloud-based-qa-testing/?gclid=Cj0KCQjwuaiXBhCCARIsAKZLt3kxiU7aKCMggg-Uw-3p7B2G94O5WnY0-WqO79jPiFVPS_YzQ5qioukaAvpyEALw_wcB">
       <h1>Clarusway Survey Form</h1>
         <p >Thank you for taking the time to help us improve the platform</p>
@@ -37,9 +36,11 @@
             <input type="checkbox" value=" Data Science"> Data Analiyst<br>
             <input type="checkbox" value=" Additional Courses">Additional Courses<br><br>
         <p>Any comments or suggestions?</p>
-        <textarea name="comments"  cols="30" rows="10">please enter your comments here to improve ourselves</textarea>
+        <textarea name="comments"  cols="30" rows="10" 
+        maxlength="250"
+        placeholder="comments to improve us" style="resize:none;"></textarea><br>
         <input type="submit" name="submit" >
-        
+        <input type="reset" name="reset">
 
     </form>
 </body>
